@@ -5,7 +5,7 @@ Tank App底部导航组件顺序优化
 QuantumultX:
 
 [rewrite_local]
-^http(s)?:\/\/gw\-app\.beantechyun\.com\/app\-api\/api\/v1\.0\/content\/route\/getWholeNodeContentInfo url script-response-body todo
+^http(s)?:\/\/gw\-app\.beantechyun\.com\/app\-api\/api\/v1\.0\/content\/route\/getWholeNodeContentInfo url script-response-body https://raw.githubusercontent.com/wbsch52/Quantumult-X-Rules/master/scripts/adblock/tank.js
 
 [mitm]
 hostname = gw-app.beantechyun.com
